@@ -1,0 +1,34 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Model and training
+transformers>=4.35.0
+datasets>=2.14.0
+peft>=0.4.0
+bitsandbytes>=0.40.0
+trl>=0.7.0
+
+# UI
+gradio>=3.50.0
+
+# Hugging Face
+huggingface-hub>=0.17.0
+
+# Inference optimization
+unsloth @ git+https://github.com/unslothai/unsloth.git
+
+# Utilities
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+
+# Optional: For GGUF conversion
+llama-cpp-python>=0.2.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+pytest>=7.4.0
